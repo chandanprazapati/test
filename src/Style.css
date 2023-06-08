@@ -1,0 +1,277 @@
+header {
+  background-color: #003580;
+  height: 70vh;
+  position: relative;
+}
+.booking {
+  padding-top: 15px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.head-btn {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+}
+.head-btn li {
+  display: inline;
+  line-height: 20px;
+  margin-top: 5px;
+}
+.head-btn button img {
+  width: 50%;
+  border-radius: 50%;
+}
+.head-btn .btn {
+  border: none;
+  color: #fff;
+}
+.head-btn .btn:hover {
+  background: lightgray;
+}
+.btn-list {
+  border: 2px solid #fff;
+  padding: 5px;
+  background: #003580;
+  color: #fff;
+}
+.btn-list:hover {
+  background: linen;
+}
+.btn i {
+  font-size: 25px;
+}
+.btnn {
+  background: #fff;
+  color: #003580;
+  border: none;
+  align-items: center;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.link-logo .link-ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.link-ul li {
+  display: inline;
+  padding: 5px;
+}
+.link-ul button {
+  border-radius: 15%;
+  border: 1px solid #003580;
+  color: #fff;
+  background: #003580;
+  /* margin: 5px; */
+  padding: 5px;
+  /* width: 0%;*/
+  vertical-align: middle;
+  font-size: 12px;
+  font-weight: 500;
+}
+.link-ul button:hover {
+  border: 1px solid #fff;
+}
+.find-stays {
+  position: absolute;
+  top: 130px;
+  left: 75px;
+  color: #fff;
+  padding-top: 40px;
+}
+.find-serch {
+  margin-top: 105px;
+  background: yellow;
+  padding: 6px;
+  border-radius: 5px;
+}
+.find-serch ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.find-serch ul li {
+  display: inline;
+}
+.find-serch ul li button {
+  width: 265px;
+  padding: 15px;
+  border: 2px solid yellow;
+  border-radius: 5px;
+}
+.find-serch ul li button:hover {
+  border: 2px solid rgb(146, 205, 50);
+}
+.offer-titles {
+  margin-top: 50px;
+}
+.offer-cuttlet {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  box-shadow: 3px 0 10px rgb(0 0 0 / 50%);
+  padding: 20px;
+}
+.offer-texts {
+  padding-left: 20px;
+}
+.offer-img img {
+  width: 150px;
+}
+.offer-texts button {
+  border: none;
+  background: #003580;
+  color: #fff;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 3px;
+}
+.offer-texts button:hover {
+  background: #032246;
+}
+/*const divStyle = {
+      background-image: "url("https://cf.bstatic.com/static/img/flags/24/ae/e5f54d8e1da0853393141831bcb0104381215a7e.png")",
+};*/
+
+.cards-img {
+  height: 270px;
+  border: 1px solid #fff;
+  filter: brightness(0.9);
+}
+.cards-img .card-header {
+  padding: 21px 15px 25px;
+  margin-bottom: 12px;
+}
+.cards-img .card-deals {
+  margin-bottom: 12px;
+  background: #ff8000;
+  margin-top: 60px;
+  float: right;
+  margin-right: 10px;
+  padding: 5px;
+}
+.cards-img:hover {
+  border: 1px solid #ff8000;
+  box-shadow: 2px 5px 50px rgb(10 20 30 / 50%);
+}
+.card-header .cont-title h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 2px #959595;
+}
+.secnd-row {
+  margin-top: 15px;
+}
+.explor-nepal {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.explor-np-img ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.explor-np-img ul li {
+  display: inline-block;
+  padding: 2px 10px;
+}
+.explor-np-img ul li img {
+  height: 200px;
+  margin-bottom: 10px;
+}
+.inspiration .insp-bg {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6);
+}
+.insp-col {
+  position: relative;
+}
+.insp-title {
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+}
+.insp-col {
+  overflow: hidden;
+}
+.insp-col:hover .insp-bg {
+  transform: scale(1.1);
+  transition: 0.9s;
+}
+.footer-list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.footer-list li {
+  display: inline;
+  padding-left: 15px;
+}
+.footer-list li a {
+  color: #fff;
+  font-weight: 500;
+}
+.footer-menu {
+  background: #003580;
+  padding: 10px;
+  border: 1px solid #ff8000;
+  border-radius: 5px;
+}
+.foot-logos ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.foot-logos ul li {
+  display: inline;
+  padding-left: 40px;
+}
+.foot-head {
+  margin-top: 50px;
+}
+.foot-head h3 {
+  color: #003580;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.foot-head p {
+  font-size: 12px;
+  padding: 20px 0px;
+}
+.foot-logos {
+  text-align: center;
+  padding: 10px 0px;
+}
+.foot-logos span {
+  font-size: 13px;
+  color: #959595;
+}
+.guests p {
+  font-size: 25px;
+  font-weight: 700;
+  color: red;
+  text-align: center;
+  padding: 15px 0px;
+  opacity: 0.6;
+}
+.insp-title span {
+  color: #fff;
+}
+.insp-tim-display {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+}
+.insp-title span {
+  font-weight: 600;
+  font-size: 14px;
+}
