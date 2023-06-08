@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 
 export default function Affiliate() {
-    return (
-        <div>Affiliate</div>
-    )
+  <div>Affiliate</div>;
+  return <div>Affiliate</div>;
 }
